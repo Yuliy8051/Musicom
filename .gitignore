@@ -1,3 +1,4 @@
+discogs-client/src/main/resources/secretApplication.properties
 HELP.md
 .gradle
 build/
