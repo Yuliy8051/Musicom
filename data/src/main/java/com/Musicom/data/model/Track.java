@@ -20,6 +20,8 @@ public class Track {
 
     private int duration;
 
+    private String name;
+
     @ManyToOne
     private Release release;
 }
