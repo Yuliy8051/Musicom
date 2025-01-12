@@ -8,13 +8,13 @@ import org.springframework.stereotype.Repository;
 @Getter
 @AllArgsConstructor
 public class MusicomDataCatalog {
-    private BandRepository bands;
-    private CountryRepository countries;
-    private GenreRepository genres;
-    private MemberRepository members;
-    private RatingRepository ratings;
-    private ReleaseRepository releases;
-    private StyleRepository styles;
-    private TrackRepository tracks;
-    private VideoRepository videos;
+    private final BandRepository bands;
+    private final CountryRepository countries;
+    private final GenreRepository genres;
+    private final MemberRepository members;
+    private final RatingRepository ratings;
+    private final ReleaseRepository releases;
+    private final StyleRepository styles;
+    private final TrackRepository tracks;
+    private final VideoRepository videos;
 }
