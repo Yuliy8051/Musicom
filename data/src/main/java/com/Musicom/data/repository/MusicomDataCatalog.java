@@ -14,7 +14,6 @@ public class MusicomDataCatalog {
     private MemberRepository members;
     private RatingRepository ratings;
     private ReleaseRepository releases;
-    private StatsRepository stats;
     private StyleRepository styles;
     private TrackRepository tracks;
     private VideoRepository videos;

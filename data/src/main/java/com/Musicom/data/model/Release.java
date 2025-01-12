@@ -30,9 +30,6 @@ public class Release {
     @OneToOne
     private Rating rating;
 
-    @OneToOne
-    private Stats stats;
-
     @ManyToOne
     private Country country;
 
